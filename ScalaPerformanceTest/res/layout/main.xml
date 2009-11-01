@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:textSize="20px" android:paddingTop="20px" android:paddingLeft="60px"/>
+<Button android:id="@+id/Button01" android:layout_marginLeft="120px" android:layout_marginRight="120px" android:layout_marginTop="30px" android:text="Create List" android:layout_width="0px" android:layout_height="0px"></Button>
+<Button android:id="@+id/Button02" android:layout_height="wrap_content" android:layout_marginTop="20px" android:layout_marginLeft="120px" android:layout_marginRight="120px" android:layout_width="fill_parent" android:text="Sort List"></Button>
+
+<EditText android:id="@+id/EditText01" android:layout_height="wrap_content" android:layout_marginTop="20px" android:text="Search" android:layout_width="fill_parent" android:layout_marginLeft="110px" android:layout_marginRight="110px"></EditText>
+<Button android:id="@+id/Button03" android:layout_height="wrap_content" android:layout_marginTop="20px" android:text="Go" android:layout_marginLeft="120px" android:layout_marginRight="120px" android:layout_width="fill_parent"></Button>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Found:" android:paddingLeft="120px" android:paddingTop="20px"></TextView>
+<Button android:id="@+id/Button04" android:layout_marginBottom="10px" android:layout_marginTop="20px" android:layout_marginRight="10px" android:layout_width="70px" android:layout_height="40px" android:layout_marginLeft="250px" android:text="Exit"></Button>
+</LinearLayout>
